@@ -31,7 +31,6 @@ public class EditProfileSingleEntryPage  extends BaseClass {
 	By loginClick = By.xpath("//input[@name='submit']");
 	By logoutLink = By.xpath("/html/body/div[1]/div[1]/div[1]/div/ul/li[9]/a/span");
 	By editProfileLink = By.xpath("//a[@href='profile.php']");
-	
 	By saveButton = By.id("Sbtn");
 	Fairy fairy = Fairy.create();
 	Person person = fairy.person();

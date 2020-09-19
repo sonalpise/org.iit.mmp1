@@ -1,11 +1,9 @@
 package org.iit.mmp.helpers;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -16,6 +14,7 @@ import org.iit.util.Logger;
 public class TestDataManager {
 
 	/**
+	 *This Class helps to Read Data from XLSX File and Storing Data into HASH MAP with <String , List<String>
 	 **/
 	public static HashMap<String, List<String>> readDataFromExcel(File f, String sheetName)
 			throws EncryptedDocumentException, IOException {

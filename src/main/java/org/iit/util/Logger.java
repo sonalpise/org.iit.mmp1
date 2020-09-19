@@ -37,3 +37,25 @@ public class Logger {
 	} // log Sheet
 
 } // Logger
+
+// My Notes
+
+//Java program to demonstrate 
+//Logger.log(Level level, String msg)  method 
+/*
+import java.util.logging.Level; 
+import java.util.logging.Logger; 
+public class GFG { 
+ public static void main(String[] args) 
+ { 
+     // Create a Logger 
+     Logger logger 
+         = Logger.getLogger( 
+             GFG.class.getName()); 
+     // log messages using log(Level level, String msg) 
+     logger.log(Level.INFO, "This is message 1"); 
+     logger.log(Level.WARNING, "This is message 2"); 
+ } 
+} */
+
+

@@ -2,31 +2,39 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-06T14:54:53Z" name="Suite" finished-at="2020-09-06T14:55:28Z" duration-ms="35256">
+  <suite started-at="2020-09-10T00:57:48Z" name="Suite" finished-at="2020-09-10T00:58:17Z" duration-ms="29663">
     <groups>
     </groups>
-    <test started-at="2020-09-06T14:54:53Z" name="Test" finished-at="2020-09-06T14:55:28Z" duration-ms="35256">
+    <test started-at="2020-09-10T00:57:48Z" name="Test" finished-at="2020-09-10T00:58:17Z" duration-ms="29663">
       <class name="org.iit.patientmodule.tests.EditPatientProfileSaveTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@29215f06]" started-at="2020-09-06T14:54:53Z" name="beforeTest" finished-at="2020-09-06T14:55:03Z" duration-ms="10690" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@5e600dd5]" started-at="2020-09-10T00:57:48Z" name="beforeTest" finished-at="2020-09-10T00:57:59Z" duration-ms="10992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginMMP()[pri:1, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@29215f06]" started-at="2020-09-06T14:55:03Z" name="loginMMP" finished-at="2020-09-06T14:55:13Z" duration-ms="10175" status="PASS">
+        <test-method signature="loginMMP(java.lang.String, java.lang.String)[pri:1, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@5e600dd5]" started-at="2020-09-10T00:57:59Z" name="loginMMP" data-provider="LoginData" finished-at="2020-09-10T00:58:09Z" duration-ms="10454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ria1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ria12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMMP -->
-        <test-method signature="editProfileAndVerify()[pri:2, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@29215f06]" started-at="2020-09-06T14:55:13Z" name="editProfileAndVerify" finished-at="2020-09-06T14:55:27Z" duration-ms="13429" status="PASS">
+        <test-method signature="editProfileAndVerify()[pri:2, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@5e600dd5]" started-at="2020-09-10T00:58:09Z" name="editProfileAndVerify" finished-at="2020-09-10T00:58:16Z" duration-ms="7209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editProfileAndVerify -->
-        <test-method signature="logout()[pri:3, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@29215f06]" started-at="2020-09-06T14:55:27Z" name="logout" finished-at="2020-09-06T14:55:27Z" duration-ms="308" status="PASS">
+        <test-method signature="logout()[pri:3, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@5e600dd5]" started-at="2020-09-10T00:58:16Z" name="logout" finished-at="2020-09-10T00:58:17Z" duration-ms="989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@29215f06]" started-at="2020-09-06T14:55:27Z" name="afterTest" finished-at="2020-09-06T14:55:28Z" duration-ms="637" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
       </class> <!-- org.iit.patientmodule.tests.EditPatientProfileSaveTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.iit.patientmodule.tests.ScheduleAppoinmentTests">
+      <class name="org.iit.patientmodule.tests.SendingMessageDocTests">
         <methods>
-          <include name="validateScheduleAppointment"/>
+          <include name="logout"/>
+          <include name="sendMessageCall"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- org.iit.patientmodule.tests.ScheduleAppoinmentTests -->
+      </class> <!-- org.iit.patientmodule.tests.SendingMessageDocTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
