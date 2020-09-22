@@ -3,7 +3,8 @@
 <suite name="Suite" verbose="5">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.iit.patientmodule.tests.EditPatientProfileSaveTests"/>
+   <!--    <class name="org.iit.patientmodule.tests.EditPatientProfileSaveTests"/>--> 
+      <class name="org.iit.adminmodule.tests.MessageSendingDocTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+org\iit\patientmodule\page\PayFeesPage.class
+org\iit\mmp\helper\HelperClass.class
+org\iit\mmp\helpers\TestDataManager.class
+org\iit\util\BaseClass.class
+org\iit\adminmodule\page\MessageSendingDocPages.class
+org\iit\patientmodule\page\EditProfileSingleEntryPage.class
+org\iit\patientmodule\page\ScheduleAppoinmentPage.class
+org\iit\patientmodule\page\SendingMessageDocPage.class
+org\iit\util\Logger.class
+org\iit\patientmodule\page\InformationVerifyPage.class
+org\iit\patientmodule\page\LoginAccountPage.class
+org\iit\patientmodule\page\EditProfileProperyPage.class
+org\iit\patientmodule\page\EditPatientProfileSavePage.class
+org\iit\patientmodule\page\SearchSymptomPage.class
+org\iit\util\AppLibrary.class

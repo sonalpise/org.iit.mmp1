@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.iit.patientmodule.tests.EditPatientProfileSaveTests" class="method navigator-link" hash-for-method="editProfileAndVerify">editProfileAndVerify</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="org.iit.adminmodule.tests.MessageSendingDocTests" class="method navigator-link" hash-for-method="closeURL">closeURL</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.iit.patientmodule.tests.EditPatientProfileSaveTests" class="method navigator-link" hash-for-method="loginMMP(ria1, Ria12345)">loginMMP(ria1, Ria12345)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="org.iit.adminmodule.tests.MessageSendingDocTests" class="method navigator-link" hash-for-method="logoutPatient">logoutPatient</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.iit.patientmodule.tests.EditPatientProfileSaveTests" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="org.iit.adminmodule.tests.MessageSendingDocTests" class="method navigator-link" hash-for-method="sendMessageAsPatient">sendMessageAsPatient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.iit.adminmodule.tests.MessageSendingDocTests" class="method navigator-link" hash-for-method="validateMessageAsAdmin">validateMessageAsAdmin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -130,29 +135,35 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.iit.patientmodule.tests.EditPatientProfileSaveTests</span>
+              <span class="class-name">org.iit.adminmodule.tests.MessageSendingDocTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="editProfileAndVerify">
-                  </a> <!-- editProfileAndVerify -->
-                  <span class="method-name">editProfileAndVerify</span>
+                  <a name="closeURL">
+                  </a> <!-- closeURL -->
+                  <span class="method-name">closeURL</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginMMP(ria1, Ria12345)">
-                  </a> <!-- loginMMP(ria1, Ria12345) -->
-                  <span class="method-name">loginMMP</span>
-                  <span class="parameters">(ria1, Ria12345)</span>
+                  <a name="logoutPatient">
+                  </a> <!-- logoutPatient -->
+                  <span class="method-name">logoutPatient</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logout">
-                  </a> <!-- logout -->
-                  <span class="method-name">logout</span>
+                  <a name="sendMessageAsPatient">
+                  </a> <!-- sendMessageAsPatient -->
+                  <span class="method-name">sendMessageAsPatient</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMessageAsAdmin">
+                  </a> <!-- validateMessageAsAdmin -->
+                  <span class="method-name">validateMessageAsAdmin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -169,7 +180,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;org.iit.patientmodule.tests.EditPatientProfileSaveTests&quot;/&gt;
+      &lt;class name=&quot;org.iit.adminmodule.tests.MessageSendingDocTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -209,24 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginMMP')
-data.setCell(0, 2, 'org.iit.patientmodule.tests.EditPatientProfileSaveTests')
-data.setCell(0, 3, 10454);
+data.setCell(0, 1, 'sendMessageAsPatient')
+data.setCell(0, 2, 'org.iit.adminmodule.tests.MessageSendingDocTests')
+data.setCell(0, 3, 22413);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'editProfileAndVerify')
-data.setCell(1, 2, 'org.iit.patientmodule.tests.EditPatientProfileSaveTests')
-data.setCell(1, 3, 7209);
+data.setCell(1, 1, 'validateMessageAsAdmin')
+data.setCell(1, 2, 'org.iit.adminmodule.tests.MessageSendingDocTests')
+data.setCell(1, 3, 8823);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logout')
-data.setCell(2, 2, 'org.iit.patientmodule.tests.EditPatientProfileSaveTests')
-data.setCell(2, 3, 989);
+data.setCell(2, 1, 'closeURL')
+data.setCell(2, 2, 'org.iit.adminmodule.tests.MessageSendingDocTests')
+data.setCell(2, 3, 1002);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logoutPatient')
+data.setCell(3, 2, 'org.iit.adminmodule.tests.MessageSendingDocTests')
+data.setCell(3, 3, 463);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -252,22 +267,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">org.iit.patientmodule.tests.EditPatientProfileSaveTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeTest</span>
+              <div class="chronological-class-name">org.iit.adminmodule.tests.MessageSendingDocTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sendMessageAsPatient</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">loginMMP(ria1, Ria12345)</span>
-                <span class="method-start">11003 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">editProfileAndVerify</span>
-                <span class="method-start">21459 ms</span>
+                <span class="method-name">logoutPatient</span>
+                <span class="method-start">22417 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">logout</span>
-                <span class="method-start">28668 ms</span>
+                <span class="method-name">validateMessageAsAdmin</span>
+                <span class="method-start">22881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeURL</span>
+                <span class="method-start">31704 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

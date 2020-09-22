@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-10T00:57:48Z" name="Suite" finished-at="2020-09-10T00:58:17Z" duration-ms="29663">
+  <suite started-at="2020-09-22T01:03:41Z" name="Suite" finished-at="2020-09-22T01:04:14Z" duration-ms="32720">
     <groups>
     </groups>
-    <test started-at="2020-09-10T00:57:48Z" name="Test" finished-at="2020-09-10T00:58:17Z" duration-ms="29663">
-      <class name="org.iit.patientmodule.tests.EditPatientProfileSaveTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@5e600dd5]" started-at="2020-09-10T00:57:48Z" name="beforeTest" finished-at="2020-09-10T00:57:59Z" duration-ms="10992" status="PASS">
+    <test started-at="2020-09-22T01:03:41Z" name="Test" finished-at="2020-09-22T01:04:14Z" duration-ms="32720">
+      <class name="org.iit.adminmodule.tests.MessageSendingDocTests">
+        <test-method signature="sendMessageAsPatient()[pri:1, instance:org.iit.adminmodule.tests.MessageSendingDocTests@2dc54ad4]" started-at="2020-09-22T01:03:41Z" name="sendMessageAsPatient" finished-at="2020-09-22T01:04:04Z" duration-ms="22413" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="loginMMP(java.lang.String, java.lang.String)[pri:1, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@5e600dd5]" started-at="2020-09-10T00:57:59Z" name="loginMMP" data-provider="LoginData" finished-at="2020-09-10T00:58:09Z" duration-ms="10454" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ria1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ria12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- sendMessageAsPatient -->
+        <test-method signature="logoutPatient()[pri:2, instance:org.iit.adminmodule.tests.MessageSendingDocTests@2dc54ad4]" started-at="2020-09-22T01:04:04Z" name="logoutPatient" finished-at="2020-09-22T01:04:04Z" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginMMP -->
-        <test-method signature="editProfileAndVerify()[pri:2, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@5e600dd5]" started-at="2020-09-10T00:58:09Z" name="editProfileAndVerify" finished-at="2020-09-10T00:58:16Z" duration-ms="7209" status="PASS">
+        </test-method> <!-- logoutPatient -->
+        <test-method signature="validateMessageAsAdmin()[pri:3, instance:org.iit.adminmodule.tests.MessageSendingDocTests@2dc54ad4]" started-at="2020-09-22T01:04:04Z" name="validateMessageAsAdmin" finished-at="2020-09-22T01:04:13Z" duration-ms="8823" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editProfileAndVerify -->
-        <test-method signature="logout()[pri:3, instance:org.iit.patientmodule.tests.EditPatientProfileSaveTests@5e600dd5]" started-at="2020-09-10T00:58:16Z" name="logout" finished-at="2020-09-10T00:58:17Z" duration-ms="989" status="PASS">
+        </test-method> <!-- validateMessageAsAdmin -->
+        <test-method signature="closeURL()[pri:4, instance:org.iit.adminmodule.tests.MessageSendingDocTests@2dc54ad4]" started-at="2020-09-22T01:04:13Z" name="closeURL" finished-at="2020-09-22T01:04:14Z" duration-ms="1002" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- org.iit.patientmodule.tests.EditPatientProfileSaveTests -->
+        </test-method> <!-- closeURL -->
+      </class> <!-- org.iit.adminmodule.tests.MessageSendingDocTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

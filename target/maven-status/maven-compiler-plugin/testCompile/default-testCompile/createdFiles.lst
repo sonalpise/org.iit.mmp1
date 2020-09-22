@@ -1,0 +1,9 @@
+org\iit\patientmodule\tests\SerachSymptomTests.class
+org\iit\adminmodule\tests\MessageSendingDocTests.class
+org\iit\patientmodule\tests\EditProfileSingleEntryTests.class
+org\iit\patientmodule\tests\PayFeesTests.class
+org\iit\patientmodule\tests\EditPatientProfileSaveTests.class
+org\iit\patientmodule\tests\SendingMessageDocTests.class
+org\iit\patientmodule\tests\LoginAccountTests.class
+org\iit\patientmodule\tests\ScheduleAppoinmentTests.class
+org\iit\patientmodule\tests\InformationVerifyTests.class

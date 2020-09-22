@@ -13,7 +13,7 @@ By AdminloginUsername = By.xpath("//input[@id='username']");
 By AdminloginPassword = By.xpath("//input[@id='password']");
 
 By loginClick = By.xpath("//input[@name='submit']");
-By AdminloginClick = By.xpath("///input[@name='admin']");
+By AdminloginClick = By.xpath("//input[@name='admin']");
 By logoutLink = By.xpath("/html/body/div[1]/div[1]/div[1]/div/ul/li[9]/a/span");
 By editProfileLink = By.xpath("//a[@href='profile.php']");
 By feesLink = By.xpath("//span[contains(text(),'Fees')]");
@@ -28,6 +28,10 @@ By feesLink = By.xpath("//span[contains(text(),'Fees')]");
 		Logger.log("I", "Attempting to Navigate");
 		d.findElement(xpathBy).click();
 	} // navigateToAModule
+	
+	public void moduleNavigation(String moduleName) {
+		d.findElement(By.xpath("//span[contains(text(),'" + moduleName + "')]")).click();
+	} // moduleNavigation
 
 	public void _openAppURL(String appURL) {
 		Logger.log("I", "Opening URL " + appURL);
@@ -48,11 +52,9 @@ By feesLink = By.xpath("//span[contains(text(),'Fees')]");
 		d.findElement(loginPassword).sendKeys(password);
 		d.findElement(loginClick).click();
 	} // loginPatientPortal
-
 	
 	public void loginAdminPortal(String username, String password) {
 		Logger.log("I", "Attempting to login to Admin Portal");
-		//d.findElement(loginMainLink).click();
 		d.findElement(AdminloginUsername).sendKeys(username);
 		d.findElement(AdminloginPassword).sendKeys(password);
 		d.findElement(AdminloginClick).click();
